@@ -1,5 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JellyCats - Legal</title>
 <style>
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
   @font-face {
     font-family: 'Fredoka';
     font-weight: 500 600;
@@ -187,15 +193,6 @@
     font-weight: 600; font-size: 1.15rem; color: var(--ink);
   }
 
-  .asset-list { list-style: none; padding: 0; margin: 0 0 16px; }
-  .asset-list li {
-    display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
-    padding: 12px 0; border-bottom: 1px solid var(--line);
-  }
-  .asset-list li:last-child { border-bottom: none; }
-  .asset-list .what { font-weight: 600; color: var(--ink); }
-  .asset-list .license { color: var(--ink-soft); font-size: 0.9rem; }
-
   footer {
     position: relative; z-index: 1;
     max-width: 680px; margin: 0 auto; padding: 40px 24px 60px;
@@ -204,6 +201,8 @@
     display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
   }
 </style>
+</head>
+<body>
 
 <header class="top">
   <div class="top-inner">
@@ -219,7 +218,7 @@
 <main>
 
   <section class="doc" id="privacy-policy">
-    <span class="eyebrow">Effective July 19, 2026</span>
+    <span class="eyebrow">Effective July 23, 2026</span>
     <h1>Privacy Policy</h1>
     <p class="updated">For JellyCats, developed by Demonmal Games (package <code>com.demonmal.jellycats</code>).</p>
 
@@ -242,6 +241,9 @@
     <h2>Children's privacy</h2>
     <p>JellyCats is not directed at children under 13, and we don't knowingly collect personal information from them.</p>
 
+    <h2>Your privacy choices</h2>
+    <p>If you're in the EU, UK, or another region where it's required, JellyCats may show a consent form the first time you play, letting you choose whether ads can be personalized. You can revisit that choice any time via <strong>Settings → Privacy Options</strong> (only shown if a choice is available to change).</p>
+
     <h2>Third-party policies</h2>
     <p>For details on how our service providers handle data, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> and <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity's Privacy Policy</a>.</p>
 
@@ -255,7 +257,7 @@
   <hr class="rule" />
 
   <section class="doc" id="terms-of-use">
-    <span class="eyebrow">Effective July 19, 2026</span>
+    <span class="eyebrow">Effective July 23, 2026</span>
     <h1>Terms of Use</h1>
     <p class="updated">For JellyCats, developed by Demonmal Games.</p>
 
@@ -293,7 +295,7 @@
   <section class="doc" id="credits">
     <span class="eyebrow">With thanks</span>
     <h1>Credits</h1>
-    <p class="updated">The people and licensed work behind JellyCats.</p>
+    <p class="updated">The people behind JellyCats.</p>
 
     <div class="credit-people">
       <div class="credit-card">
@@ -305,13 +307,6 @@
         <div class="name">Valeriia Malashina</div>
       </div>
     </div>
-
-    <h2>Additional credits</h2>
-    <p>Free and licensed assets used in JellyCats, credited as their authors requested:</p>
-    <ul class="asset-list">
-      <li><span class="what">Fredoka, typeface by Milena Brandão</span> <span class="license">SIL Open Font License</span></li>
-    </ul>
-    <p>This list grows as new licensed assets make their way into the game.</p>
   </section>
 
 </main>
@@ -339,3 +334,5 @@
 
   sections.forEach(function (s) { io.observe(s); });
 </script>
+</body>
+</html>
